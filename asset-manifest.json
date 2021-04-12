@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/afraz-khan.github.io/static/css/main.b5211d19.chunk.css",
+    "main.js": "/afraz-khan.github.io/static/js/main.625c5d9a.chunk.js",
+    "main.js.map": "/afraz-khan.github.io/static/js/main.625c5d9a.chunk.js.map",
+    "runtime-main.js": "/afraz-khan.github.io/static/js/runtime-main.c1d4812f.js",
+    "runtime-main.js.map": "/afraz-khan.github.io/static/js/runtime-main.c1d4812f.js.map",
+    "static/js/2.e419d013.chunk.js": "/afraz-khan.github.io/static/js/2.e419d013.chunk.js",
+    "static/js/2.e419d013.chunk.js.map": "/afraz-khan.github.io/static/js/2.e419d013.chunk.js.map",
+    "static/js/3.483b0929.chunk.js": "/afraz-khan.github.io/static/js/3.483b0929.chunk.js",
+    "static/js/3.483b0929.chunk.js.map": "/afraz-khan.github.io/static/js/3.483b0929.chunk.js.map",
+    "index.html": "/afraz-khan.github.io/index.html",
+    "static/css/main.b5211d19.chunk.css.map": "/afraz-khan.github.io/static/css/main.b5211d19.chunk.css.map",
+    "static/js/2.e419d013.chunk.js.LICENSE.txt": "/afraz-khan.github.io/static/js/2.e419d013.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1d4812f.js",
+    "static/js/2.e419d013.chunk.js",
+    "static/css/main.b5211d19.chunk.css",
+    "static/js/main.625c5d9a.chunk.js"
+  ]
+}
