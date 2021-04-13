@@ -1,31 +1,28 @@
-
-header{
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: var(--light-text-color);
+.container{
+  margin-top: 10vh;
+  text-align: center;
 }
 
-header img{
-  pointer-events: none;
-  width: 20em;
+.name-container{
+  text-align: center;
+}
+
+.img-fluid{
   max-width: 100%;
   height: auto;
   position: relative;
-  top: -5vh;
+  margin-bottom: 10%;
 }
 
-header p{
+.name{
   display: inline-block;
+  color: var(--light-text-color);
   overflow: hidden;
   animation: typewriter 5s steps(35) 10ms 1 normal both,
     blinkTextCursor 600ms steps(35) infinite normal;
   white-space: nowrap;
   border-right: 4px solid var(--dark-text-color);
   box-sizing: border-box;
-  margin-top: 10vh;
   font-size: 3vw;
 }
 
@@ -38,27 +35,9 @@ header p{
   to{border-right-color: transparent;}
 }
 
-/* @media screen and (max-width: 830px) {
-  header p{
-    font-size: cal(5px + 50vw);
-  }
-} */
-
 @media screen and (max-width: 480px) {
-  header img{
-    position: relative;
-    top: -15vh;
-    width: 60vmin;
-  }
-  header p{
-    position: relative;
-    top: -20vh;
+  .container{
+    max-width: 80vw;
+    margin-top: 3vh;
   }
 }
-
-/* @media screen and (max-width: 330) {
-  header img{
-    position: relative;
-    top: -30vh;
-  }
-} */
