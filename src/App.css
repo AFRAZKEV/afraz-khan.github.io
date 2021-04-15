@@ -26,6 +26,10 @@
   font-size: 3vw;
 }
 
+footer{
+  background-color: var(--dark-text-color);
+}
+
 @keyframes typewriter{
   from{width: 0;}
   to{width: 22em;}
