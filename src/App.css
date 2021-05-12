@@ -26,10 +26,42 @@
   font-size: 3vw;
 }
 
-footer{
-  background-color: var(--dark-text-color);
+.json-view{
+  margin-left: 5%;
+  font-size: 1.6vw;
 }
 
+footer{
+  color: var(--light-text-color);
+  padding: 3vh;
+  font-size: 1.1vw;
+  font-family: 'Source Code Pro', monospace;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+
+footer li {
+  float: right;  
+  margin-right: 5%;
+}
+
+footer  li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer li:hover{
+  cursor: pointer;
+}
 
 
 @keyframes typewriter{
@@ -41,6 +73,12 @@ footer{
   to{border-right-color: transparent;}
 }
 
+/* @media screen and (max-width: 768px) {
+  .json-view{
+    font-size: ;
+  }
+} */
+
 @media screen and (max-width: 480px) {
   .container{
     max-width: 50vw;
@@ -49,5 +87,14 @@ footer{
 
   .img-fluid{
     margin-bottom: 30%;
+  }
+
+  footer{
+    font-size: 1.5vw;
+  }
+
+  .social-icon{
+    height: 2vh;
+    width: 2wh;
   }
 }

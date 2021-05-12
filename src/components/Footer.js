@@ -1,25 +1,43 @@
 import React from 'react';
+import instagram from '../images/instagram.png'
+import twitter from '../images/twitter.png'
+import linkedin from '../images/linkedin.png'
+import github from '../images/github.png'
 
 function Footer(){
     return(
-        <footer className='page-footer font-small mdb-color pt-4' >
-            <div className='container-flued' >
-                <div className='Row text-center' >
-                    @2021 afraz-khan.github.io
+        <footer >
+            <hr />
+            <div className='row' >
+                <div className='col-sm-6' >
+                        @2021 afraz-khan.github.io
+                </div>
+                <div className='col-sm-6' >
+                    <ul >
+                        <li >
+                            <a href='https://www.instagram.com/mrafrazkhan/' >
+                                <img className='social-icon' src={instagram} />
+                            </a>
+                        </li>
+                        <li >
+                            <a href='https://twitter.com/MrAfrazKhan' >
+                                <img className='social-icon' src={twitter} />
+                            </a>
+                        </li>
+                        <li >
+                            <a href='https://www.linkedin.com/in/afraz-khan/' >
+                                <img className='social-icon' src={linkedin} />
+                            </a>
+                        </li>
+                        <li >
+                            <a href='https://github.com/afraz-khan' >
+                                <img className='social-icon' src={github} />
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </footer>
     );
 }
-
-// function Footer(){
-//     return(
-//         <div className="row justify-content-center mx-auto footer" >
-//             <div className="col-lg-4" >asd</div>
-//             <div className="col-lg-4" >asd</div>
-//             <div className="col-lg-4" >asd</div>
-//         </div>
-//     );
-// }
-
 export default Footer;

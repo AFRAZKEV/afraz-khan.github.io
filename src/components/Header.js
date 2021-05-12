@@ -1,5 +1,5 @@
 import React from 'react';
-import HiFaceImage from '../hi-face.png';
+import HiFaceImage from '../images/hi-face.png';
 
 function Header(){
     return(
