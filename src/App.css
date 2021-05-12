@@ -34,16 +34,14 @@
 
 footer{
   color: var(--light-text-color);
-  padding: 3vh;
+  padding: 1.5%;
   font-size: 1.1vw;
   font-family: 'Source Code Pro', monospace;
-  left: 0;
-  bottom: 0;
-  width: 100%;
   border-top: 1px solid #9ccc9c;
 }
 
 footer ul{
+  display: inline;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -55,11 +53,11 @@ footer li {
   margin-right: 5%;
 }
 
-footer  li a {
+/* footer  li a {
   display: block;
   text-align: center;
   text-decoration: none;
-}
+} */
 
 footer li:hover{
   cursor: pointer;
@@ -92,19 +90,10 @@ footer li:hover{
   .social-icon{
     height: 2vh;
   }
-
-  footer li{
-    margin-top: 5%;
-    float: left;
-  }
 }
 
 @media screen and (max-width: 275px) {
   .social-icon{
     height: 1vh;
-  }
-
-  footer li{
-    float: left;
   }
 }
