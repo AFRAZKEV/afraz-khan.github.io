@@ -28,6 +28,7 @@
 
 .json-view{
   margin-left: 5%;
+  margin-bottom: 2%;
   font-size: 1.6vw;
 }
 
@@ -39,6 +40,7 @@ footer{
   left: 0;
   bottom: 0;
   width: 100%;
+  border-top: 1px solid #9ccc9c;
 }
 
 footer ul{
@@ -73,12 +75,6 @@ footer li:hover{
   to{border-right-color: transparent;}
 }
 
-/* @media screen and (max-width: 768px) {
-  .json-view{
-    font-size: ;
-  }
-} */
-
 @media screen and (max-width: 480px) {
   .container{
     max-width: 50vw;
@@ -95,6 +91,20 @@ footer li:hover{
 
   .social-icon{
     height: 2vh;
-    width: 2wh;
+  }
+
+  footer li{
+    margin-top: 5%;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 275px) {
+  .social-icon{
+    height: 1vh;
+  }
+
+  footer li{
+    float: left;
   }
 }

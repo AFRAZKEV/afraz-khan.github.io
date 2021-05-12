@@ -7,12 +7,11 @@ import github from '../images/github.png'
 function Footer(){
     return(
         <footer >
-            <hr />
             <div className='row' >
-                <div className='col-sm-6' >
+                <div className='col-lg-6' >
                         @2021 afraz-khan.github.io
                 </div>
-                <div className='col-sm-6' >
+                <div className='col-lg-6' >
                     <ul >
                         <li >
                             <a href='https://www.instagram.com/mrafrazkhan/' >
