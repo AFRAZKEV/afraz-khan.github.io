@@ -2,7 +2,46 @@ import React from 'react';
 import ReactJson from 'react-json-view';
 
 const data = {
-    status: 'PENDING . . .'
+    desg: 'Sofware Engineer',
+    tech_skills: [
+        'Software dev', 'software design', 'serverless', 
+        'web dev', 'backend', 'apis', 'big data', 'cloud computing'
+    ],
+    technologies: [
+        'JavaScript',
+        'Python',
+        'nodejs',
+        'expressjs',
+        'routing-controllers',
+        'aws'
+    ],
+    professional_experience: '1.5 years',
+    independent_experience: '1 year',
+    current_status: 'employed',
+    location: 'Lahore, Punjab Pakistan',
+    education: {
+        becholers: 'BS Computer Science',
+        university: 'Univeristy of Engineering & Technology, Lahore',
+        batch: 2019
+    },
+    interests:[
+        'Synthwave & hiphop',
+        'truck simulation',
+        'space art',
+        'personal dev logging'
+    ],
+    thoughts:[
+        "Don't ever take assumptions while coding",
+        'Design as late as possible',
+        'data is reality',
+        'Hybrid office is great post Covid-19',
+        'Micheal Jordan is the goat',
+        'strive for the purpose of your life'
+    ],
+    contact: {
+        message: 'Thanks for visiting, have anything to discuss? Happy to connect 😀',
+        email: 'afrazkhan@pm.me'
+    }
 };
 
 const jsonTheme = {

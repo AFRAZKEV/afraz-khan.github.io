@@ -1,8 +1,10 @@
 import React from 'react';
-import instagram from '../images/instagram.png'
+import pinterest from '../images/pinterest.png'
 import twitter from '../images/twitter.png'
 import linkedin from '../images/linkedin.png'
 import github from '../images/github.png'
+import mmm from '../images/mmm.png'
+import dev from '../images/dev.png'
 
 function Footer(){
     return(
@@ -10,8 +12,8 @@ function Footer(){
             @2021 afraz-khan.github.io
             <ul >
                 <li >
-                    <a href='https://www.instagram.com/mrafrazkhan/' >
-                        <img className='social-icon' src={instagram} />
+                    <a href='https://www.pinterest.com/afrazkhan_/' >
+                        <img className='social-icon' src={pinterest} />
                     </a>
                 </li>
                 <li >
@@ -27,6 +29,16 @@ function Footer(){
                 <li >
                     <a href='https://github.com/afraz-khan' >
                         <img className='social-icon' src={github} />
+                    </a>
+                </li>
+                <li >
+                    <a href='https://mmm.page/afrazkhan.main' >
+                        <img className='social-icon' src={mmm} />
+                    </a>
+                </li>
+                <li >
+                    <a href='https://dev.to/afrazkhan' >
+                        <img className='social-icon' src={dev} />
                     </a>
                 </li>
             </ul>
