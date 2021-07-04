@@ -17,7 +17,7 @@ function Footer(){
                     </a>
                 </li>
                 <li >
-                    <a href='https://twitter.com/MrAfrazKhan' >
+                    <a href='https://twitter.com/afrazkhan_' >
                         <img className='social-icon' src={twitter} />
                     </a>
                 </li>
